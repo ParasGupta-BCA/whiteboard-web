@@ -4,8 +4,6 @@
 
 🔗 **Live Demo**: [https://whiteboard-smz2.vercel.app](https://whiteboard-smz2.vercel.app)
 
-![Whiteboard Preview](https://avatars.githubusercontent.com/u/88033881?v=4)
-
 ---
 
 ## ✨ Features
@@ -32,7 +30,6 @@
 Made with 💙 by **Paras Gupta**
 
 - Email: parasgupta4494@gmail.com
-- Website: [friten.in](https://friten.in)
 
 ---
 
