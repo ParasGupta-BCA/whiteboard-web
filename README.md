@@ -2,7 +2,7 @@
 
 **Whiteboard** is a free, simple, and fast online drawing platform that lets you draw, sketch, and express your ideas instantly in your browser.
 
-🔗 **Live Demo**: [https://whiteboard-smz2.vercel.app](https://whiteboard-smz2.vercel.app)
+🔗 **Live Demo**: [https://parasgupta-bca.github.io/whiteboard-web](https://parasgupta-bca.github.io/whiteboard-web)
 
 ---
 
