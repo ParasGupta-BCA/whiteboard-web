@@ -41,9 +41,12 @@ Made with 💙 by **Paras Gupta**
 
 ---
 
-## 📄 License
+## License
 
-This project is open-source for learning and personal use.
+The `tldraw` library is provided under the
+[tldraw license](https://github.com/tldraw/tldraw/blob/main/LICENSE.md) which
+allows commercial and non-commercial use. To purchase a business license and
+remove the watermark, contact [sales@tldraw.com](mailto:sales@tldraw.com).
 
 ---
 
