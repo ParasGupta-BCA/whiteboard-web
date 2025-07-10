@@ -62,7 +62,7 @@
         <p class="lead py-3">A modern digital canvas for creators, teachers, and students. No login. No limits. Just draw.</p>
         <div class="d-flex flex-row justify-content-center align-items-center gap-2">
           <a href="https://whiteboard-smz2.vercel.app" class="btn glass-btn mr-2" target="_blank">Try It Free <em class="ml-2"></em></a>
-          <a href="https://parasgupta-bca.github.io/whiteboard-web/app-release.apk" class="btn glass-btn" download>Get Android App</a>
+          <a href="app-release.apk" class="btn glass-btn" download>Get Android App</a>
         </div>
       </div>
     </div>
@@ -172,5 +172,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="js/scripts.js"></script>
 <script>feather.replace()</script>
+<script>
+// Delay redirect for hero buttons to show effect
+document.addEventListener('DOMContentLoaded', function() {
+  var heroButtons = document.querySelectorAll('.glass-btn');
+  heroButtons.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      // Only delay if not already handled (e.g., middle click)
+      if (e.button === 0 && !btn.hasAttribute('data-delayed')) {
+        e.preventDefault();
+        btn.setAttribute('data-delayed', 'true');
+        setTimeout(function() {
+          window.open(btn.href, btn.target || '_self');
+          btn.removeAttribute('data-delayed');
+        }, 1000); // 1000ms delay
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
